@@ -7,6 +7,7 @@ const Input = ({ label = "", ...props }) => {
     <Wrap>
       <Label>{label}</Label>
       <InputStyle {...props} />
+      <InputStyle className="" {...props} />
     </Wrap>
   )
 }
@@ -24,12 +25,15 @@ const Label = styled.label`
 `;
 
 const InputStyle = styled.input`
+  padding: 0 10px; 
   width: 100%;
   height: 40px;
-  border: none;
+  border: 1px solid #ddd;
+  border-radius: 2px; 
   border-bottom: 1px solid #eee;
   transition: border .2s ease-in;
   outline: none;
+  box-sizing: border-box;
 
   &:focus {
     border-bottom-color: red;

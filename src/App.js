@@ -17,6 +17,8 @@ function App() {
       <Sec>
         <Tilte>Input</Tilte>
         <Input type="text" onChange={(event) => console.log(event.target.checked)} />
+        <Input type="password" onChange={(event) => console.log(event.target.checked)} />
+        <Input type="Number" onChange={(event) => console.log(event.target.checked)} />
       </Sec>
     </div>
   );

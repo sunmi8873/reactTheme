@@ -7,7 +7,6 @@ const Input = ({ label = "", ...props }) => {
     <Wrap>
       <Label>{label}</Label>
       <InputStyle {...props} />
-      <InputStyle className="" {...props} />
     </Wrap>
   )
 }

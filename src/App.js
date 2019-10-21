@@ -18,7 +18,8 @@ function App() {
         <Tilte>Input</Tilte>
         <Input type="text" placeholder="text" onChange={(event) => console.log(event.target.checked)} />
         <Input type="password" placeholder="password" onChange={(event) => console.log(event.target.checked)} />
-        <Input type="Number" placeholder="Number"  onChange={(event) => console.log(event.target.checked)} />
+        <Input type="Number" placeholder="number"  onChange={(event) => console.log(event.target.checked)} />
+        <Input type="search" placeholder="search"  onChange={(event) => console.log(event.target.checked)} />
       </Sec>
     </div>
   );

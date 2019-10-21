@@ -16,9 +16,9 @@ function App() {
       </Sec>
       <Sec>
         <Tilte>Input</Tilte>
-        <Input type="text" onChange={(event) => console.log(event.target.checked)} />
-        <Input type="password" onChange={(event) => console.log(event.target.checked)} />
-        <Input type="Number" onChange={(event) => console.log(event.target.checked)} />
+        <Input type="text" placeholder="text" onChange={(event) => console.log(event.target.checked)} />
+        <Input type="password" placeholder="password" onChange={(event) => console.log(event.target.checked)} />
+        <Input type="Number" placeholder="Number"  onChange={(event) => console.log(event.target.checked)} />
       </Sec>
     </div>
   );

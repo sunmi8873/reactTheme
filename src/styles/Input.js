@@ -25,8 +25,8 @@ const Label = styled.label`
 
 const InputStyle = styled.input`
   padding: 0 10px; 
-  width: 100%;
-  height: 40px;
+  width: 250ps;
+  height: 35px;
   border: 1px solid #ddd;
   border-radius: 2px; 
   border-bottom: 1px solid #eee;
@@ -35,6 +35,6 @@ const InputStyle = styled.input`
   box-sizing: border-box;
 
   &:focus {
-    border-bottom-color: red;
+    border-bottom-color: #f00;
   }
 `;

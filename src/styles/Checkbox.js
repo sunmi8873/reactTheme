@@ -2,17 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 // disabled 효과
-// useState를 이용해서 
+// useState를 이용해서
 
-const CheckboxComponent = (props) => {
+const CheckboxComponent = props => {
   return (
     <Wrap>
       <input type="checkbox" {...props} />
       <div className="checkbox" />
       <div>{props.label}</div>
     </Wrap>
-  )
-}
+  );
+};
 
 export default CheckboxComponent;
 
@@ -22,6 +22,7 @@ const Wrap = styled.label`
   height: 40px;
   font-size: 14px;
   line-height: 18px;
+
   input {
     display: none;
   }
